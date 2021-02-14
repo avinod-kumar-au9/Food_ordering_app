@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1st Test</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  </head>
+  <body>
+    <!-- HEADER------------------------- -->
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"
+          ><img src="Images/champ logo1.png" alt="champ"
+        /></a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          class="collapse navbar-collapse barRight"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav ml-auto nav-link">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><button type="button" class="btn btn-secondary">Login</button>
+              </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#"
+                ><button type="button" class="btn btn-secondary">Signup</button>
+              </a>
+            </li>
+            <li class="nav-item">
+              <form action="" class="nav-link">
+                <select name="cars" id="cars">
+                  <option selected="true" disabled="true">Location</option>
+                  <option value="bajaj">Bengalur</option>
+                  <option value="honda">Hyderabad</option>
+                  <option value="yamaha">America</option>
+                </select>
+              </form>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HOMEPAGE------------------------------- -->
+    <div class="homePage">
+      <!-- BANNER------------------------------- -->
+      <div id="banner1">
+        <h1 class="title">Late night at office?</h1>
+        <p class="subtitle">Order food from favourite restaurants near you.</p>
+        <nav class="navbar navbar-light inp-nav">
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2 w-inp"
+              type="text"
+              placeholder="Search your favourite restaurant"
+            />
+            <!-- <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button> -->
+          </form>
+        </nav>
+        <ul class="searchList"></ul>
+      </div>
+
+      <!-- Restaurant Details output area -->
+
+      <div class="detailOutput">
+        <div class="col">
+          <h4>Restaurant Details</h4>
+          <p id="det1"></p>
+          <p id="det2"></p>
+          <p id="det3"></p>
+          <p id="det4"></p>
+        </div>
+      </div>
+
+      <!-- COLLECTIONS---------------------------- -->
+      <div class="collections">
+        <h2 class="colle">\Collections</h2>
+        <!-- <small>Pasand aane dho</small><br /><br /> -->
+        <h4>Trending</h4>
+
+        <div class="tre">
+          <div class="col">
+            <img src="Images/tre-1.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nesciunt tenetur voluptate eum cumque iure quaerat alias. Delectus perspiciatis iste dolores laudantium, modi in quas repellat. Aperiam, maxime perferendis! Alias?</p> -->
+          <div class="col">
+            <img src="Images/tre-2.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-3.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-4.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+        </div>
+
+        <h4>Breweries</h4>
+        <div class="brew">
+          <div class="col">
+            <img src="Images/tre-1.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nesciunt tenetur voluptate eum cumque iure quaerat alias. Delectus perspiciatis iste dolores laudantium, modi in quas repellat. Aperiam, maxime perferendis! Alias?</p> -->
+          <div class="col">
+            <img src="Images/tre-2.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-3.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-4.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+        </div>
+        <h4>Pubs</h4>
+        <div class="pub">
+          <div class="col">
+            <img src="Images/tre-1.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nesciunt tenetur voluptate eum cumque iure quaerat alias. Delectus perspiciatis iste dolores laudantium, modi in quas repellat. Aperiam, maxime perferendis! Alias?</p> -->
+          <div class="col">
+            <img src="Images/tre-2.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-3.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-4.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+        </div>
+        <h4>IPL Screenings</h4>
+        <div class="ipl">
+          <div class="col">
+            <img src="Images/tre-1.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <!-- <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta nesciunt tenetur voluptate eum cumque iure quaerat alias. Delectus perspiciatis iste dolores laudantium, modi in quas repellat. Aperiam, maxime perferendis! Alias?</p> -->
+          <div class="col">
+            <img src="Images/tre-2.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-3.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+          <div class="col">
+            <img src="Images/tre-4.jpg" alt="" />
+            <p>Dummy1</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- GET THE APP----------------------------------- -->
+
+      <div class="appfit">
+        <div class="col">
+          <img src="Images/app-image.webp" alt="" />
+        </div>
+        <div class="col col2">
+          <h3>Restaurants in your pocket</h3>
+          <p>Order from your favorite restaurants & track on the go</p>
+          <button class="butt1">
+            <i class="fa fa-play" aria-hidden="true"></i>
+            Google Play
+          </button>
+          <button class="butt2">
+            <i class="fa fa-apple" aria-hidden="true"></i>
+            App Store
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER--------------------- -->
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-3 allcol">
+            <a href="about.html">About Us</a>
+          </div>
+          <div class="col-sm-3 allcol">
+            <a href="#">Careers</a>
+          </div>
+          <div class="col-sm-3 allcol">
+            <ul allcol3 colIcon>
+              <li>
+                <a href="#">
+                  <i class="fa fa-linkedin" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa fa-facebook-official" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3 allcol"><a href="#">Contact</a></div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <i class="fa fa-copyright" aria-hidden="true"></i>
+        <p>All Rights are perfectly not reserved</p>
+      </div>
+    </footer>
+
+    <p class="specia"><img src="restaurant.json" alt="" /></p>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://use.fontawesome.com/1cd484aed9.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script type="text/javascript" src="restaurant.json"></script> -->
+    <!-- <script type="text/javascript" src="script.js"></script> -->
+    <script src="script.js"></script>
+
+    <!-- <script src="script.js"></script> -->
+  </body>
+</html>
